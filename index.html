@@ -24,7 +24,7 @@ phpinfo();
 
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="load();">
 
   <!-- Page Wrapper -->
   <div id="wrapper">
@@ -691,6 +691,14 @@ phpinfo();
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
+
+  <script>
+
+    function load(){
+      alert("oninit");
+    }
+  
+  </script>
 
 </body>
 
